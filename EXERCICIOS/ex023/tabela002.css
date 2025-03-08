@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+caption{
+    font-size: 1.3em;
+    color: white;
+    font-weight: 700;
+    background-color: gray;
+}
+
+.lugar::after{
+    content: "º";
+}
+
+.porcentagem{
+    color: rgb(5, 221, 5);
+}
+
+.pintado{
+    background-color: gray;
+}
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+    width: 600px;
+}
+
+table td{
+    border: 1px solid black;
+
+}
+
+tfoot th{
+    border: 1px solid black;
+}
+
+tfoot{
+    font-weight: 700;
+    background-color: gray;
+    color: white;
+}

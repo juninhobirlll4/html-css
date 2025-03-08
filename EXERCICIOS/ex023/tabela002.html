@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de tabelas grandes</title>
+    <link rel="stylesheet" href="tabela002.css">
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+        <table>
+            <caption>População por estado (Brasil)</caption>
+            <thead>
+                <tr>
+                    <td scope="col">Posição</td>
+                    <td scope="col">Unidade Federativa</td>
+                    <td scope="col">População</td>
+                    <td scope="col">Mudança</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="lugar">1</td>
+                    <td>São Paulo</td>
+                    <td>45 973 190</td>
+                    <td class="porcentagem">+11,36%</td>
+                </tr>
+                <tr class="pintado">
+                    <td class="lugar">2</td>
+                    <td>Minas Gerais</td>
+                    <td>21 322 692</td>
+                    <td class="porcentagem">+8,80%</td>
+                </tr>
+                <tr>
+                    <td class="lugar">3</td>
+                    <td>Rio de Janeiro</td>
+                    <td>17 219 679</td>
+                    <td class="porcentagem">+7,69%</td>
+                </tr>
+                <tr class="pintado">
+                    <td class="lugar">4</td>
+                    <td>Bahia</td>
+                    <td>14 850 513</td>
+                    <td class="porcentagem">+5,97%</td>
+                </tr>
+                <tr>
+                    <td class="lugar">5</td>
+                    <td>Paraná</td>
+                    <td>11 824 665</td>
+                    <td class="porcentagem">+13,21%</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <th>
+                    <th>Total de Habitantes</td>
+                    <td>111 190 739</td>
+                </th>
+            </tfoot>
+        </table>
+</body>
+</html>
