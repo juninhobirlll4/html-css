@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox e outro</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post">
+            <fieldset>
+                <legend>Sexo</legend>
+                <p>
+                    <label for="imas"><input type="radio" name="mas" id="imas"> Masculino</label><br>
+                    <label for="ifem"><input type="radio" name="feminino" id="ifem"> Feminino</label><br>
+                </p>
+            </fieldset>
+            <fieldset>
+            <legend>Esportes favoritos</legend>
+                <label for="ifut">
+                    <input type="checkbox" name="basquete" id="ifut"> Futebol <br>
+                </label>
+
+                <label for="ibas">
+                    <input type="checkbox" name="futebol" id="ibas"> Basquete <br>
+                </label>
+
+                <label for="ique">
+                    <input type="checkbox" name="Queimada" id="ique"> Queimada <br>
+                </label>
+
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">    
+        </p>
+    </form>
+</body>
+</html>
