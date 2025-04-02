@@ -48,6 +48,7 @@ a:hover{
 body{
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
+    width: 100vw;
 }
 
 header{
