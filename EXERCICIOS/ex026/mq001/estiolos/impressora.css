@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+/*ESTILO PARA IMPRESSORAS*/
+
+*{
+    margin: 10px;
+    padding: 10px;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+menu{
+    display: none; /*SIGNIFICA QUE VOU OCULTAR O MENU*/
+}
