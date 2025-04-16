@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+/* Aparelho Deitado */
+
+body{
+    background-image: url(/EXERCICIOS/ex026/imagens/cev-landscape.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
