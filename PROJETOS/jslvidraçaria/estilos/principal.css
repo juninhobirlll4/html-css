@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+:root{
+    --color01: #00ffff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body, html{
+    width: 100vw;
+    height: 100vh;
+}
+
+.span-header-div{
+    display: flex;
+    justify-content: end;
+    background-color: rgba(128, 128, 128, 0.322);
+    background: transparent;
+}
+
+.span-header{
+    padding: 10px;
+}
+
+.span-header::before{ /*LEMBRAR DE COLOCAR O SIMBOLO DO TELEFONE*/
+
+}
+
+.principal-header{
+    background-color: var(--color01);
+}
+
+.principal-nav{
+    display: flex;
+    justify-content: end;
+}
+
+.principal-header ul{
+    display: flex;
+}
+
+.principal-header ul li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+.principal-header ul li:hover{
+    font-weight: 900;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+header img, .h1start{
+    display: flex;
+    justify-content: start;
+    padding-left: 40px;
+    cursor: pointer;
+}
+
+header .h1star{
+    display: flex;
+}
+
+#section-button{
+    background-color: var(--color01);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#section-button button{
+    background-color: var(--color01);
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#section-button button:hover{
+    text-decoration: underline;
+    font-weight: 900;
+}
