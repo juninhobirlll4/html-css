@@ -63,24 +63,57 @@ header img, .h1start{
 
 header .h1star{
     display: flex;
+    justify-content: flex-start;
 }
 
 #section-button{
     background-color: var(--color01);
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 20px;
 }
 
-#section-button button{
+#section-button h1{
+    columns: 1;
+}
+
+#section-button a{
     background-color: var(--color01);
     text-decoration: none;
+    color: black;
     border: 1px solid black;
     border-radius: 10px;
     padding: 5px;
 }
 
-#section-button button:hover{
+#section-button a:hover{
     text-decoration: underline;
     font-weight: 900;
+}
+
+.principais-servicos{
+    background-color: rgba(128, 128, 128, 0.233);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.principais-servicos h2{
+    
+}
+
+.principaais-servicos space{
+    margin: 10px;
+}
+
+.principaais-servicos img{
+    margin: 10px;
+}
+
+.principais-servicos p{
+    margin: 10px;
+}
+
+.principais-servicos a{
+    margin: 10px;
 }
